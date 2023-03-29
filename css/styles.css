@@ -1,0 +1,58 @@
+/* Potential Color Palletes */
+/* DDD5D0 CFC0BD B8B8AA 7F9183 586F6B */
+/* 3R4E50 FACFAD F8BD7F F5AC72 F2AA7E */
+/* 696D7D 6F9283 8D9F87 CDC6A5 F0DCCA */
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GENERAL */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*
+==============
+HOME SECTION A
+============== 
+*/
+
+/* SECTION A */
+#home-a {
+    width: 100vw;
+    height: 100vh;
+    background: #DDD5D0;
+}
+
+/* CONTENT */
+#home-a-content {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+/* H1 */
+#home-a-content h1 {
+   font-size: 4rem;
+}
+
+/* H2 */
+#home-a-content h2 {
+   font-size: 3rem;
+}
+
+/* BUTTON */
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    background: black;
+    cursor: pointer;
+}

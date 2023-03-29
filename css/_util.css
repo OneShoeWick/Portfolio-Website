@@ -1,0 +1,19 @@
+/* FORMATTING */
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+/* TEXT */
+.text-center {
+    text-align: center;
+}
+
+/* BUTTONS */
+.btn {
+    background: red;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+}
