@@ -1,8 +1,3 @@
-/* Potential Color Palletes */
-/* DDD5D0 CFC0BD B8B8AA 7F9183 586F6B */
-/* 3R4E50 FACFAD F8BD7F F5AC72 F2AA7E */
-/* 696D7D 6F9283 8D9F87 CDC6A5 F0DCCA */
-
 /* RESET */
 * {
     margin: 0;
@@ -10,49 +5,90 @@
     box-sizing: border-box;
 }
 
-/* GENERAL */
+
+/* BODY */
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #FEFEDF;
 }
 
 /*
-==============
-HOME SECTION A
-============== 
+=======
+NAV BAR
+=======
 */
 
-/* SECTION A */
-#home-a {
-    width: 100vw;
-    height: 100vh;
-    background: #DDD5D0;
-}
-
-/* CONTENT */
-#home-a-content {
+/* GENERAL */
+#navbar {
     display: flex;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
-/* H1 */
-#home-a-content h1 {
-   font-size: 4rem;
+/* LISTS */
+#navbar ul {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
 }
 
-/* H2 */
-#home-a-content h2 {
-   font-size: 3rem;
+/* ABOUT | SERVICES */
+#navbar #about-services {
+    width: 236px;
 }
 
-/* BUTTON */
-a {
-    text-decoration: none;
-    color: white;
+/* PORTFOLIO | CONTACT */
+#navbar #portfolio-contact {
+    width: 263px;
 }
 
-a:hover {
-    background: black;
-    cursor: pointer;
+/* LIST ITEMS */
+#navbar ul li {
+    list-style: none;
+    font-size: 1.5rem;
+   
 }
+
+/* NAVBAR LINKS */
+#navbar ul li a {
+    color: #000;
+    padding: 5px 7px 13px;
+    /* BORDER LINES */
+    background-image: linear-gradient(#D9A23A, #D9A23A);
+    background-size: 50px 2px;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    transition: .5s ease;
+
+}
+
+/* HOVER */
+#navbar ul li a:hover {
+    color: #96BCAA;
+}
+
+/* ABOUT | SERVICES LINKS */
+#navbar ul .border-white {
+    background-image: linear-gradient(#fff, #fff);
+    background-size: 50px 2px;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+
+/* LOGO */
+#navbar h2 {
+    font-size: 3.5rem;
+    font-family: 'Delicious Handrawn', sans-serif;
+    padding-top: 10px;
+
+}
+
+#navbar h2 a {
+    color: #96BCAA;
+    transition: .5s ease;
+}
+
+#navbar h2 a:hover {
+    color: #D9A23A;
+}
+
+/* HOME LANDING PAGE */

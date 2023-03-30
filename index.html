@@ -1,33 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- META TAGS -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- GOOGLE FONTS: ROBOTO -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- BACKGROUND STYLES SHEET -->
+    <link rel="stylesheet" href="css/_bg.css">
+    <!-- UTILITY STYLES SHEET -->
     <link rel="stylesheet" href="css/_util.css">
+    <!-- GENERAL STYLES SHEET -->
     <link rel="stylesheet" href="css/styles.css">
     <title>Chris Wick | Front-End Developer | Copywriter</title>
 </head>
 <body>
     
-    <!-- Nav Bar -->
-    <nav>
-
-    </nav>
-    <!-- Home Section: A -->
-    <section id="home-a">
-        <div id="home-a-content" class="container">
+    <header id="header-home">
+        <div class="container">
+            <nav id="navbar">
+                 <!-- ABOUT | SERVICES  -->
+                <ul id="about-services">
+                    <li class="border-white"><a href="#">ABOUT</a></li>
+                    <li class="border-white"><a href="#">SERVICES</a></li>
+                </ul>
+                <!-- LOGO -->
+                <h2><a href="#">CW</a></h2>
+                <!-- PORTFOLIO | CONTACT -->
+                <ul id="portfolio-contact">
+                    <li><a href="#">PORTFOLIO</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </nav>
+            <!-- HOME CONTENT -->
             <div>
-                <h1 id="home-a-intro">Hi, I'm Chris.</h1>
-                <h2 id="home-a-title"><span>Front-End Developer</span></h2>
-                <a href="#" class="btn">View My Work</a>
+                <h2>Hi, I'm Chris.</h2>
+                <h1><span>I'm a </span><span>Front-End Developer</span></h1>
             </div>
         </div>
-    </section>
 
+    </header>
+    <!-- NAV BAR -->
 
 
     <script src="app.js"></script>
