@@ -4,10 +4,19 @@
     max-width: 1850px;
     overflow: auto;
     padding: 0 20px;
+    height: 100%;
 }
 
 /* LINKS */
 a {
     text-decoration: none;
-    color: #000;
+}
+
+/* BUTTONS */
+.btn {
+    font-size: 1.5rem;
+    color: #fff;
+    background: #D9A23A;
+    border-radius: 10px;
+    padding: 22.5px 13.5px;
 }

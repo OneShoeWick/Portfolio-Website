@@ -12,6 +12,12 @@ body {
     background-color: #FEFEDF;
 }
 
+#header-home {
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
 /*
 =======
 NAV BAR
@@ -34,6 +40,7 @@ NAV BAR
 /* ABOUT | SERVICES */
 #navbar #about-services {
     width: 236px;
+    z-index: 1;
 }
 
 /* PORTFOLIO | CONTACT */
@@ -61,17 +68,24 @@ NAV BAR
 
 }
 
+
+
+/* ABOUT | SERVICES LINKS */
+#navbar ul #border-white {
+    background-image: linear-gradient(#fefedf, #fefedf);
+    background-size: 50px 2px;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    color: #fefedf;
+}
+
 /* HOVER */
 #navbar ul li a:hover {
     color: #96BCAA;
 }
 
-/* ABOUT | SERVICES LINKS */
-#navbar ul .border-white {
-    background-image: linear-gradient(#fff, #fff);
-    background-size: 50px 2px;
-    background-position: bottom center;
-    background-repeat: no-repeat;
+#navbar ul #border-white:hover {
+    color: #96BCAA;
 }
 
 /* LOGO */
@@ -79,7 +93,6 @@ NAV BAR
     font-size: 3.5rem;
     font-family: 'Delicious Handrawn', sans-serif;
     padding-top: 10px;
-
 }
 
 #navbar h2 a {
@@ -92,3 +105,45 @@ NAV BAR
 }
 
 /* HOME LANDING PAGE */
+#home-content {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#home-content #box {
+    display: flex;
+    flex-direction: column;
+    width: 655px;
+    height: 235px;
+}
+
+#home-content #intro-text {
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+
+#home-content #small-text {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+#home-content #title-text {
+    font-size: 4rem;
+    font-weight: 400;
+    color: #D9A23A;
+}
+
+#home-content #view-work {
+    width: 181px;
+    margin-top: 1.25rem;
+    transition: .25s ease;
+
+}
+
+#home-content #view-work:hover {
+    background: #96BCAA;
+}
