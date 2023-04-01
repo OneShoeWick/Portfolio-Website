@@ -1,4 +1,8 @@
-/* RESET */
+/*
+===========================================================================================================================
+RESET
+===========================================================================================================================
+*/
 * {
     margin: 0;
     padding: 0;
@@ -6,12 +10,19 @@
 }
 
 
+/*
+===========================================================================================================================
+GENERAL BODY & HEADER STYLING
+===========================================================================================================================
+*/
+
 /* BODY */
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #FEFEDF;
 }
 
+/* HEADER */
 #header-home {
     height: 100vh;
     position: relative;
@@ -19,92 +30,75 @@ body {
 }
 
 /*
-=======
+===========================================================================================================================
 NAV BAR
-=======
+===========================================================================================================================
 */
 
-/* GENERAL */
+/* NAVBAR */
 #navbar {
     display: flex;
     justify-content: space-between;
 }
 
-/* LISTS */
+/* SECTIONS */
 #navbar ul {
     display: flex;
     justify-content: space-between;
     padding-top: 25px;
-}
-
-/* ABOUT | SERVICES */
-#navbar #about-services {
-    width: 236px;
+    width: 263px;
     z-index: 1;
 }
 
-/* PORTFOLIO | CONTACT */
-#navbar #portfolio-contact {
-    width: 263px;
-}
 
-/* LIST ITEMS */
-#navbar ul li {
-    list-style: none;
-    font-size: 1.5rem;
-   
-}
-
-/* NAVBAR LINKS */
+/* LINKS */
 #navbar ul li a {
     color: #000;
     padding: 5px 7px 13px;
+    transition: .5s ease;
     /* BORDER LINES */
     background-image: linear-gradient(#D9A23A, #D9A23A);
     background-size: 50px 2px;
     background-position: bottom center;
     background-repeat: no-repeat;
-    transition: .5s ease;
-
 }
 
-
-
-/* ABOUT | SERVICES LINKS */
+/* ABOUT & SERVICE */
 #navbar ul #border-white {
+    color: #fefedf;
+    /* BORDER LINES */
     background-image: linear-gradient(#fefedf, #fefedf);
     background-size: 50px 2px;
     background-position: bottom center;
     background-repeat: no-repeat;
-    color: #fefedf;
 }
 
-/* HOVER */
-#navbar ul li a:hover {
+/* LOGO */
+#navbar h2 a {
     color: #96BCAA;
+    transition: .5s ease;
+    font-size: 3.5rem;
+    font-family: 'Delicious Handrawn', sans-serif;
 }
 
+/* LINK HOVER */
+#navbar ul li a:hover,
 #navbar ul #border-white:hover {
     color: #96BCAA;
 }
 
-/* LOGO */
-#navbar h2 {
-    font-size: 3.5rem;
-    font-family: 'Delicious Handrawn', sans-serif;
-    padding-top: 10px;
-}
-
-#navbar h2 a {
-    color: #96BCAA;
-    transition: .5s ease;
-}
-
+/* LOGO HOVER */
 #navbar h2 a:hover {
     color: #D9A23A;
 }
 
-/* HOME LANDING PAGE */
+/*
+===========================================================================================================================
+HOME PAGE CONTENT
+===========================================================================================================================
+*/
+
+/* HOME CONTENT BODY */
 #home-content {
     height: 80%;
     width: 100%;
@@ -114,6 +108,7 @@ NAV BAR
     align-items: center;
 }
 
+/* CONTENT CONTAINER */
 #home-content #box {
     display: flex;
     flex-direction: column;
@@ -121,29 +116,37 @@ NAV BAR
     height: 235px;
 }
 
+/* INTRO */
 #home-content #intro-text {
     font-size: 3.5rem;
-    font-weight: 400;
 }
 
+/* I'M A... */
 #home-content #small-text {
     font-size: 2rem;
-    font-weight: 400;
 }
 
+/* TITLE */
 #home-content #title-text {
     font-size: 4rem;
-    font-weight: 400;
     color: #D9A23A;
 }
 
-#home-content #view-work {
-    width: 181px;
-    margin-top: 1.25rem;
-    transition: .25s ease;
-
+/* ALL TEXT */
+#home-content #intro-text,
+#home-content #small-text,
+#home-content #title-text {
+    font-weight: 400;
 }
 
+/* LINK */
+#home-content #view-work {
+    width: 180px;
+    margin-top: 1.25rem;
+    transition: .25s ease;
+}
+
+/* LINK HOVER */
 #home-content #view-work:hover {
     background: #96BCAA;
 }

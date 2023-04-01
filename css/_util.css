@@ -1,4 +1,6 @@
-/* FORMATTING */
+/*==========
+  FORMATTING
+  ==========*/
 .container {
     margin: auto;
     max-width: 1850px;
@@ -7,12 +9,25 @@
     height: 100%;
 }
 
-/* LINKS */
+
+/*========
+  ELEMENTS
+  ========*/
+
+/* LI */
+li {
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+/* A */
 a {
     text-decoration: none;
 }
 
-/* BUTTONS */
+/*=======
+  BUTTONS
+  =======*/
 .btn {
     font-size: 1.5rem;
     color: #fff;
@@ -20,3 +35,17 @@ a {
     border-radius: 10px;
     padding: 22.5px 13.5px;
 }
+
+/*=======
+  PADDING
+  =======*/
+.py-1 { padding: 10px; }
+.py-2 { padding: 20px; }
+.py-3 { padding: 30px; }
+
+/*======
+  MARGIN
+  ======*/
+.my-1 { padding: 10px; }
+.my-2 { padding: 20px; }
+.my-3 { padding: 30px; }
