@@ -65,7 +65,7 @@ NAV BAR
 
 
 /* LINKS */
-#navbar ul li a {
+.nav-links {
     color: #fff;
     padding: 5px 7px 13px;
     transition: .5s ease;
@@ -116,7 +116,7 @@ HOME PAGE CONTENT
 #home-content #box {
     display: flex;
     flex-direction: column;
-    width: 730px;
+    width: 790px;
     height: 235px;
     z-index: 1;
 }
@@ -136,6 +136,8 @@ HOME PAGE CONTENT
     font-size: 4rem;
     color: #EC2970;
     font-weight: 800;
+    transition: .5s ease;
+
 }
 
 /* TRIANGLE */
